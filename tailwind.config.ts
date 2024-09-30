@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      bagde: {
+        'custom-gradient': 'linear-gradient(to right, transparent 40%, rgb(186, 221, 201) 50%, transparent 60%)',
+      },
     },
   },
   plugins: [],
