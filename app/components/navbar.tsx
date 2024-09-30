@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { icons, navLinks } from "../utils/constants";
+import {  navLinks } from "../utils/constants";
 import { Open_Sans } from "next/font/google";
 
 const openSans = Open_Sans({

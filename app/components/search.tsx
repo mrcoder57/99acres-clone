@@ -13,7 +13,7 @@ const openSans = Open_Sans({
 const Search = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
-  const handleClick = (index: any) => {
+  const handleClick = (index:any) => {
     setActiveIndex(index);
   };
 
