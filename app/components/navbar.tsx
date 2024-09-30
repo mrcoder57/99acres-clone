@@ -66,7 +66,7 @@ const Navbar = () => {
           </div>
           <div className=" hover:cursor-pointer">
           <Image
-                src="/Menu.svg"
+                src="/menu.svg"
                 alt="icons"
                 height={28}
                 width={28}
