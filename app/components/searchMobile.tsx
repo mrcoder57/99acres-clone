@@ -11,8 +11,8 @@ const openSans = Open_Sans({
 
 const Searchmobile = () => {
   return (
-    <div className="absolute lg:hidden  top-[235px] left-[3vh] shadow-xl flex flex-col w-[360px] h-[7vh] rounded-xl bg-white">
- <div className=" flex flex-row items-center mx-3 gap-16 mt-3">
+    <div className="absolute lg:hidden  top-[235px] left-[3vh] shadow-xl flex flex-col w-[300px] h-[7vh] rounded-xl bg-white">
+ <div className=" flex flex-row items-center mx-3 gap-16 mt-2">
           <div className=" flex flex-row gap-4">
           <Image src="/search.svg" alt="search" width={20} height={20}/>
           <input type="text" name="" id="" placeholder=" Search Residential " className= {` ${openSans.className} w-[93px] h-10 focus:outline-none text-xs `}/>
