@@ -18,7 +18,7 @@ const Search = () => {
   };
 
   return (
-    <div className="absolute hidden  top-[37vh] lg:left-[35vh] left-10 shadow-xl lg:flex flex-col w-[994px] h-[135px] rounded-xl bg-white">
+    <div className="relative hidden mx-auto top-[30vh] shadow-xl lg:flex flex-col w-[994px] h-[135px] rounded-xl bg-white">
       <div className="flex  flex-row gap-14 items-center justify-center">
         {searchFilters.map((filter, index) => (
           <a
