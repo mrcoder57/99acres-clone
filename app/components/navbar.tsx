@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import {  navLinks } from "../utils/constants";
+import { navLinks } from "../utils/constants";
 import { Open_Sans } from "next/font/google";
 
 const openSans = Open_Sans({
@@ -23,7 +23,7 @@ const Navbar = () => {
           All India
         </p>
       </div>
-      <div className=" lg:flex flex-row gap-5 hover:cursor-pointer hidden  ">
+      <div className=" lg:flex flex-row lg:gap-[2vh] hover:cursor-pointer hidden  ">
         {navLinks.map((link, index) => (
           <a
             className={` mx-2 first-letter:capitalize font-semibold  text-[14px] text-[#909090] hover:text-white ${openSans.className}  `}
@@ -43,35 +43,18 @@ const Navbar = () => {
               free{" "}
             </span>
           </button>
-         
         </div>
         <div className=" flex flex-row gap-3 items-center">
-        <div className=" h-7 w-7 items-center justify-center bg-white rounded-full p-1 hover: cursor-pointer">
-              <Image
-                src="/headphone.svg"
-                alt="icons"
-                height={20}
-                width={20}
-              />
-            </div>
-            <div className=" h-7 w-7 items-center justify-center bg-white rounded-full p-1 hover: cursor-pointer">
-              <Image
-                src="/people.svg"
-                alt="icons"
-                height={20}
-                width={20}
-              />
-            </div>
-           
+          <div className="flex items-center justify-center h-7 w-7 bg-white rounded-full p-1 cursor-pointer hover:bg-gray-100">
+            <Image src="/headphone.svg" alt="icons" height={20} width={20} />
           </div>
-          <div className=" hover:cursor-pointer">
-          <Image
-                src="/menu.svg"
-                alt="icons"
-                height={28}
-                width={28}
-              />
-              </div>
+          <div className="flex items-center justify-center h-7 w-7 bg-white rounded-full p-1 cursor-pointer hover:bg-gray-100">
+            <Image src="/people.svg" alt="icons" height={20} width={20} />
+          </div>
+        </div>
+        <div className=" hover:cursor-pointer">
+          <Image src="/menu.svg" alt="icons" height={28} width={28} />
+        </div>
       </div>
     </div>
   );
