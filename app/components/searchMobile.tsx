@@ -34,7 +34,14 @@ const Searchmobile = () => {
                 width={20}
               />
             </div>
-            <button className={ `w-20 h-9 bg-[#0078db] items-center justify-center ${openSans.className} font-bold text-white text-[14px] rounded-md`}>Search</button>
+                        <div className=" h-9 w-9 items-center justify-center bg-blue-100 rounded-full p-2 hover: cursor-pointer">
+              <Image
+                src="/search.svg"
+                alt="icons"
+                height={20}
+                width={20}
+              />
+            </div>
           </div>
         </div>
     </div>
