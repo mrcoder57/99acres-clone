@@ -11,7 +11,7 @@ const openSans = Open_Sans({
 });
 const Navbar = () => {
   return (
-    <div className=" flex flex-row lg:mx-12 mx-3 items-center justify-between mt-4 z-[100000] ">
+    <div className=" lg:flex  hidden flex-row lg:mx-12 mx-3 items-center justify-between mt-4 z-[100000] ">
       <div className=" flex flex-row gap-4 items-center">
         <div className=" h-9 w-24">
           <Image src="/logo.png" alt="99acres" height={36} width={105} />
